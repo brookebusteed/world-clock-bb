@@ -24,6 +24,18 @@ function updateTime() {
       "h:mm:ss [<small>]A[</small>]"
     );
   }
+  //KL
+  let kualaLumpurElement = document.querySelector("#kuala-lumpur");
+  if (kualaLumpurElement) {
+    let kualaLumpurDateElement = kualaLumpurElement.querySelector(".date");
+    let kualaLumpurTimeElement = kualaLumpurElement.querySelector(".time");
+    let kualaLumpurTime = moment().tz("Asia/Kuala_Lumpur");
+
+    kualaLumpurDateElement.innerHTML = kualaLumpurTime.format("MMMM Do YYYY");
+    kualaLumpurTimeElement.innerHTML = kualaLumpurTime.format(
+      "h:mm:ss [<small>]A[</small>]"
+    );
+  }
 }
 
 function updateCity(event) {

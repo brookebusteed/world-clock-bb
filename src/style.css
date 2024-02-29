@@ -22,6 +22,12 @@ select {
   font-size: 18px;
 }
 
+footer {
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
 .date {
   opacity: 0.7;
 }
@@ -55,10 +61,4 @@ select {
   font-size: 24px;
   vertical-align: middle;
   line-height: 48px;
-}
-
-footer {
-  text-align: center;
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
 }
