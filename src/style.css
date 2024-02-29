@@ -1,6 +1,7 @@
 body {
-  background-color: #f9f7fe;
+  background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
   font-family: sans-serif;
+  color: #01352c;
 }
 
 h1 {
@@ -20,12 +21,18 @@ select {
   border-radius: 4px;
   padding: 10px;
   font-size: 18px;
+  color: #01352c;
+  background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+
+a {
+  color: #61b390;
 }
 
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(66, 69, 67, 0.8);
 }
 
 .date {
